@@ -9,7 +9,10 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    # Đã sửa lại đúng phép chia và xử lý ngoại lệ chia cho 0
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def power(a, b):
+    # Experimental power function (To be reverted)
+    return a ** b
