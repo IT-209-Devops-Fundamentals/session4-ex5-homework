@@ -1,0 +1,9 @@
+!.gitignore
+!README.md
+!calculator.py
+!*.png
+!*.jpg
+__pycache__/
+*.pyc
+.env
+*.tmp
